@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Anime Artist Links</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #0f0f0f, #1c1c2e);
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 400px;
+      text-align: center;
+    }
+
+    .profile-img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 3px solid #ff4ecd;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      margin: 10px 0 5px;
+      font-size: 24px;
+    }
+
+    p {
+      font-size: 14px;
+      color: #aaa;
+      margin-bottom: 20px;
+    }
+
+    .link {
+      display: block;
+      background: #26263b;
+      margin: 10px 0;
+      padding: 12px;
+      border-radius: 10px;
+      text-decoration: none;
+      color: white;
+      transition: 0.3s;
+      border: 1px solid transparent;
+    }
+
+    .link:hover {
+      background: #ff4ecd;
+      color: black;
+      border: 1px solid #ff4ecd;
+      transform: scale(1.05);
+    }
+
+    .footer {
+      margin-top: 20px;
+      font-size: 12px;
+      color: #555;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <img src="https://i.imgur.com/yourimage.jpg" class="profile-img">
+
+  <h1>Your Anime Name</h1>
+  <p>🎨 Anime Artist | Commissions Open</p>
+
+  <a href="#" class="link">🌐 Portfolio</a>
+  <a href="#" class="link">📷 Instagram</a>
+  <a href="#" class="link">🎥 YouTube</a>
+  <a href="#" class="link">💼 Commission Info</a>
+  <a href="#" class="link">💬 Discord</a>
+
+  <div class="footer">
+    Made with ❤️ by You
+  </div>
+
+</div>
+
+</body>
+</html>
