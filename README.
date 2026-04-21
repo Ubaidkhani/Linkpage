@@ -1,0 +1,33 @@
+# 🌐 Project Title
+
+A simple and responsive website built using modern web technologies.
+
+## 📌 Description
+
+This project is a clean and user-friendly website designed for smooth performance and responsive layout across all devices.
+
+## 🚀 Features
+
+* Responsive design
+* Fast loading
+* Clean UI
+* Easy navigation
+
+## 🛠️ Tech Stack
+
+* HTML
+* CSS
+* JavaScript
+
+## ⚙️ Setup
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+```
+
+Open `index.html` in your browser.
+
+## 👨‍💻 Author
+
+Your Name
